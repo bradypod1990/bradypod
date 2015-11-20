@@ -22,6 +22,7 @@ public class IndexController {
 	
 	@RequestMapping("saveUser") 
 	public String save() {
+		
 		User user = new User();
 		user.setName("james");
 		user.setPassword("james");
